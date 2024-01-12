@@ -1,0 +1,156 @@
+body {
+    background: black;
+    margin: 0; 
+}
+
+.container {
+    border: 1px solid white;
+    border-radius: 3px;
+    display: flex; 
+    flex-direction: column; 
+    padding: 1vh;
+    margin: 5vh 2.5vw;
+    height: 87.5vh; 
+    position: relative;
+}
+
+.page-title,
+.desc,
+.tabs,
+.tabs a {
+    color: white;
+}
+
+.name,
+.contact-form,
+input,
+textarea,
+fieldset,
+legend,
+#submit,
+#message {
+    color: white;
+    opacity: 0.9;
+}
+
+.page-title {
+    opacity: 0.85;
+    margin: 2%;
+    font-size: 50px;
+    height: 30px;
+    font-weight: normal;
+}
+
+.desc {
+    opacity: 0.85;
+    margin: 2%;
+    font-size: 15;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.tabs{
+    opacity: 0.75;
+    background-color: transparent;
+    padding: 2%;
+    margin-top: 52vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.back-contact {
+    color: white;
+    opacity: 0.75;
+    background-color: transparent;
+    padding: 2%;
+}
+
+.tabs a, .back-contact {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 2%;
+}
+
+fieldset {
+    margin: 10vh;
+}
+
+#back-contact {
+    height: 60vh;
+
+
+}
+
+input,
+textarea {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px 0;
+    font-size: 15;
+    font-weight: bold;
+}
+
+fieldset {
+    margin: 7% 0;
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 1.25em;
+    padding: 0.1em 0.5em;
+    min-width: auto;
+    opacity: 0.7;
+    margin: 0 auto;
+}
+
+#submit,
+#message {
+    resize: none;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.message-group {
+    grid-column: 1 / -1;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.input-group label {
+    align-self: flex-start;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+#submit {
+    grid-column: 1 / -1;
+    opacity: 0.75;
+    background: black;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.form {
+    height: 330px;
+}
+
+#about-me:hover,
+#portfolio:hover,
+#contact-me:hover,
+#back:hover,
+#submit:hover,
+#back-c:hover {
+    opacity: 0.8;
+}
