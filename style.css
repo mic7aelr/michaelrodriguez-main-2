@@ -74,7 +74,7 @@ legend,
 
 .about-back {
     padding: 2%;
-    margin-top: 59vh;
+    margin-top: 55vh;
     display: flex;
     flex-direction: column;
 }
@@ -192,9 +192,4 @@ legend {
 #back-c:hover,
 .about-back:hover {
     opacity: 0.8;
-}
-
-.target-section {
-    height: 100vh;
-    /* Additional styling as needed */
 }
