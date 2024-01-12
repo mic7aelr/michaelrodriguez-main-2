@@ -53,33 +53,66 @@ legend,
     opacity: 0.75;
     background-color: transparent;
     padding: 2%;
-    margin-top: 52vh; 
+    margin-top: 49vh; 
     display: flex;
     flex-direction: column;
 }
 
-.back-contact {
+.tabs a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* About back button */
+
+.about-back {
+    padding: 2%;
+    margin-top: 59vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-back a {
     color: white;
     opacity: 0.75;
     background-color: transparent;
-    padding: 2%;
+    text-decoration: none;
 }
 
-.tabs a, .back-contact {
-    text-decoration: none;
+/* Contact back button */
+.back-contact {
+    padding: 2%;
+    margin-bottom: 150px;
+    display: flex;
+}
+
+.back-contact a {
     color: white;
-    margin-bottom: 2%;
+    text-decoration: none;
+    opacity: 0.75;
+    background-color: transparent;
+}
+
+/* Portfolio back button */
+.portfolio-back {
+    padding: 2%;
+    margin-top: 59vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-back a {
+    color: white;
+    opacity: 0.75;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 fieldset {
     margin: 10vh;
 }
 
-#back-contact {
-    height: 60vh;
-
-
-}
 
 input,
 textarea {
@@ -94,7 +127,7 @@ textarea {
 }
 
 fieldset {
-    margin: 7% 0;
+    margin: 4vw;
     border-radius: 5px;
 }
 
@@ -149,8 +182,8 @@ legend {
 #about-me:hover,
 #portfolio:hover,
 #contact-me:hover,
-#back:hover,
 #submit:hover,
-#back-c:hover {
+#back-c:hover,
+.about-back:hover {
     opacity: 0.8;
 }
